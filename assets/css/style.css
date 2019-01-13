@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-image: url("assets/images/background.png") !important;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif !important;
+    color: #666666 !important;
+}
+
+.projects {
+    font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-light .bg-light {
+    background-color: #4aaaa5 !important;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5 !important;
+}
+
+.navbar-nav {
+    padding-right: 60px !important;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    font-weight: bold !important;
+}
+
+h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif !important;
+    font-weight: bold !important;
+    color: #4aaaa5 !important;
+    padding: 0px, 10px, 10px, 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    margin-left: 25%;
+    
+}
+
+.card-text {
+    background-color: #4aaaa5 !important;
+    position: relative;
+    margin-top: 30%;
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+
+.container {
+    margin-top: 20px !important;
+    margin-bottom: 50px !important;
+}
+
+.Portfolio {
+    text-align: center !important;
+}
+
+/*styles for contact form. These were not changed much from the w3schools tutorial I used*/
+input[type=text], select, textarea {
+    width: 100% !important; 
+    padding: 12px !important;   
+    border: 1px solid #ccc !important; 
+    border-radius: 4px !important; 
+    box-sizing: border-box !important; 
+    margin-top: 6px !important; 
+    margin-bottom: 16px !important; 
+    resize: vertical; 
+}
+
+input[type=submit] {
+    background-color: #4aaaa5 !important;
+    color: white;
+    padding: 12px 20px !important;
+    border: none;
+    border-radius: 4px !important;
+    cursor: pointer !important;
+}
+
+/* hover effect with different teal shade */
+input[type=submit]:hover {
+    background-color: lightseagreen !important;
+}
+
+.footer {
+    background-color: #666666 !important;
+    border-top: #4aaaa5 solid 5px !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
